@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="top-rectangle">
       <img
-        src="next-testing/assets/images/dark.jpg"
+        src="assets/images/dark.jpg"
         alt="profile image"
         className="profile-image"
       />
