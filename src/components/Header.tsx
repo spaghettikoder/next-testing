@@ -1,8 +1,5 @@
 
 import Link from 'next/link';
-import { useRouter } from 'next/router';
-import styles from './header.module.css';
-
 
 export default function Header() {
   return (
@@ -22,17 +19,3 @@ export default function Header() {
     </div>
   );
 }
-
-
-// export default function Header() {
-//   return (
-//     <header>
-      // <nav>
-      //   <ul>
-      //     <li><Link href="/">Home</Link></li>
-      //     <li><Link href="/comic">Comic</Link></li>
-      //   </ul>
-      // </nav>
-//     </header>
-//   );
-// }
