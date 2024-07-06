@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <div className="top-rectangle">
       <img
-        src="/assets/images/dark.jpg"
+        src="${basePath}/assets/images/dark.jpg"
         alt="profile image"
         className="profile-image"
       />
