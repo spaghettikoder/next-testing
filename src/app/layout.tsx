@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import React from 'react';
 import Header from '@/components/Header';
-import Contact from "@/components/Contact";
 import '@/app/globals.css';
 import { titleContact, githubUrlContact, telegramUrlContact, emailUrlContact } from "@/data/data";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header />
         <main>{children}</main>
-        <Contact 
+        <Footer 
           title={titleContact} 
           githubUrl={githubUrlContact} 
           telegramUrl={telegramUrlContact} 

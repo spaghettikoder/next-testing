@@ -7,10 +7,10 @@ import { bioTitle, bioContent, projectTitle, projectList, achievementsTitle, ach
 
 export default function Home() {
   return (
-    <>
+    <div className='content'>
       <Bio title={bioTitle} content={bioContent} />
       <Projects title={projectTitle} projects={projectList} />
       <Achievements title={achievementsTitle} achievements={achievementsList} />
-    </>
+    </div>
   );
 }

@@ -1,6 +1,7 @@
 
 import Link from 'next/link';
-import React from 'react';
+import { useRouter } from 'next/router';
+import styles from './header.module.css';
 
 
 export default function Header() {
@@ -11,8 +12,9 @@ export default function Header() {
         alt="profile image"
         className="profile-image"
       />
-       <nav>
-        <ul>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <nav>
+        <ul className='headerList'>
           <li><Link href="/">Home</Link></li>
           <li><Link href="/comic">Comic</Link></li>
         </ul>
