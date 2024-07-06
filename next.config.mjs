@@ -2,6 +2,7 @@
 
 
 const nextConfig = {
+  output: 'export',
   basePath: '/your-repository-name',
   assetPrefix: '/your-repository-name/',
   images: {
